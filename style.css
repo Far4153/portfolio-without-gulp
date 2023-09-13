@@ -1,4 +1,5 @@
 *{
+    /* overflow-x: hidden; */
     border: 0px;
     padding: 0%;
     margin: 0%;
@@ -226,7 +227,7 @@ height: auto;
  }
 
 
- @media (max-width: 768px) {
+ @media (max-width: 600px) {
     .profilecontainer {
         height: 300px; /* Decrease the height as needed for mobile */
     }
@@ -241,7 +242,7 @@ height: auto;
         transform: translate(70px,60px); /* Remove the translation for mobile */
     }
     .slantline-1{
-        width: 63.5%;
+        width: 89%;
         height: 1.5px;
         background-color: rgb(255, 255, 255);
         transform: rotate(-20deg);
@@ -250,7 +251,7 @@ height: auto;
     }
 
     body{
-        width: 700px;
+        max-width: 100%;
        
         overflow-x: hidden; 
         border: 0px;
@@ -293,4 +294,7 @@ height: auto;
     transform: translate(370px,20px);
  }
 
+ /* *{
+    overflow-x: hidden;
+ } */
 }
