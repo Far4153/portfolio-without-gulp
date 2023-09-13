@@ -4,7 +4,8 @@
     margin: 0%;
 }
 html body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    max-width: 100%;
     border: 0px;
     margin: 0%;
     padding: 0%;
@@ -251,10 +252,10 @@ height: auto;
     body{
         width: 700px;
        
-            overflow: hidden; 
-            border: 0px;
-            margin: 0%;
-            padding: 0%;
+        overflow-x: hidden; 
+        border: 0px;
+        margin: 0%;
+        padding: 0%;
         
     }
 
@@ -289,7 +290,7 @@ height: auto;
         padding-left: 25px;
     }
  .profilecontainer button{
-    transform: translate(300px,20px);
+    transform: translate(370px,20px);
  }
 
 }
