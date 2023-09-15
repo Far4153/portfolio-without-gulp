@@ -97,7 +97,7 @@ height: auto;
     color: white;
     font-weight: 900;
     font-size: 50px;
-    transform: translate(200px,20px);
+    transform: translate(120px,200px);
 }
 /* Add this CSS to your existing stylesheet */
 /* ... Your existing CSS rules ... */
@@ -199,7 +199,7 @@ height: auto;
 .profilecontainer button{
     width: 100px;
     height: 40px;
-    transform: translate(200px,40px);
+    transform: translate(140px,190px);
     border-radius: 5px;
     background-color: rgb(62, 62, 85);
 }
@@ -226,6 +226,13 @@ height: auto;
     
  }
 
+ p{
+    display: inline-block;
+ }
+
+ span{
+    display: block;
+ }
 
  @media (max-width: 600px) {
     .profilecontainer {
@@ -239,7 +246,7 @@ height: auto;
 
     .profilecontainer p {
         font-size: 30px; /* Decrease the font size for mobile */
-        transform: translate(70px,60px); /* Remove the translation for mobile */
+        transform: translate(40px,60px); /* Remove the translation for mobile */
     }
     .slantline-1{
         width: 150%;
@@ -268,8 +275,9 @@ height: auto;
         
     }
     .contactme{
-        padding-left: 175px;
+        padding-left: 125px;
     }
+
 
 
     .aboutme{
@@ -290,10 +298,13 @@ height: auto;
     .footer-socials i{
         display: flex;
         flex-direction: row;
-        padding-left: 25px;
+        padding-left: 0px;
     }
  .profilecontainer button{
-    transform: translate(370px,20px);
+    transform: translate(-150px,100px);
+ }
+ span{
+    display: block;
  }
 
  /* *{

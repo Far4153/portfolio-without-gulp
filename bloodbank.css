@@ -179,15 +179,15 @@ button:hover{
     }
 
     .slide-image img{
-        width: 250px;
-        height: 160px;
+        width: 350px;
+        height: 200px;
         
       }
       .dot-container {
         display: flex;
         justify-content: center; /* Horizontally center the dots */
         align-items: center;
-        width: 300px;
+        width: 400px;
     }
     .dots {
         cursor: pointer;
@@ -199,7 +199,7 @@ button:hover{
         display: inline-block;
         /* align-items: center; */
         transition: background-color 0.5s ease;
-        max-width: 500px;
+        max-width: 400px;
       }
       body{
         max-width: 400px;
@@ -213,5 +213,10 @@ button:hover{
       .techstack{
         margin: 30px;
         padding-left: 0px;
+      }
+      .forward {
+        left: 300px;
+        right: 10px; /* Adjust the distance from the right edge as needed */
+        border-radius: 2px; /* Remove border radius to align with the right edge */
       }
   }
