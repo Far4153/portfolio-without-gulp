@@ -33,7 +33,7 @@ html body{
     width: 102%;
     height: 2px;
     background-color: rgb(255, 255, 255);
-    transform: rotate(10deg);
+    transform: rotate(12deg);
     transform-origin: 0 0;
     opacity: 0; /* Initially, make it transparent */
     animation: fadeIn 2s ease-in-out forwards; /* Apply the fadeIn animation */
@@ -51,9 +51,10 @@ html body{
 .circular-image img{
     border-radius: 50%;
     width: 150px;
-    position: relative;
-    left: 1223px;
-    top: 137px
+    position: absolute;
+    /* left: 1223px; */
+    right: 458px;
+    top: 181px;
 }
 
 /* .skill-section{
@@ -102,8 +103,8 @@ height: auto;
     /* transform: translate(120px,200px);
      */
     position: relative;
-    top: 100px;
-    right: -180px;
+    top: 282px;
+    right: -100px;
 }
 /* Add this CSS to your existing stylesheet */
 /* ... Your existing CSS rules ... */
@@ -207,8 +208,8 @@ height: auto;
     height: 40px;
     /* transform: translate(140px,190px); */
     position: relative;
-    right: 120px;
-    top:150px;
+    right: 191px;
+    top:326px;
     border-radius: 5px;
     background-color: rgb(62, 62, 85);
 }
@@ -243,7 +244,7 @@ height: auto;
     display: block;
  }
 
- @media (max-width: 600px) {
+ @media (max-width: 689px) {
     .profilecontainer {
         height: 300px; /* Decrease the height as needed for mobile */
     }
@@ -264,8 +265,8 @@ height: auto;
     .profilecontainer p {
         font-size: 30px; /* Decrease the font size for mobile */
         position: relative;
-        right: -30px;
-        top: 50px; /* Remove the translation for mobile */
+        right: -34px;
+        top: 61px; /* Remove the translation for mobile */
     }
 
 
