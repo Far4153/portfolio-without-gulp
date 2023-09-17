@@ -265,8 +265,8 @@ height: auto;
     .profilecontainer p {
         font-size: 30px; /* Decrease the font size for mobile */
         position: relative;
-        right: -34px;
-        top: 61px; /* Remove the translation for mobile */
+        right: -10px;
+        top: 70px; /* Remove the translation for mobile */
     }
 
 
@@ -296,10 +296,13 @@ height: auto;
         padding-top: 30px;
         padding-left: 0%;
         
-            /* padding-left: 200px; */
             max-width: 500px;
             text-align: center;
     
+    }
+
+    .aboutme h2{
+        text-align: center;
     }
     .footer-socials h2{
         padding-top: 20px;
@@ -307,15 +310,19 @@ height: auto;
         flex-direction: left;
         padding-left: 0px;
     }
+
+    .footer-socials{
+        padding-left: 140px;
+    }
     .footer-socials i{
         display: flex;
         flex-direction: row;
-        padding-left: 0px;
+        padding-left: 17px;
     }
  .profilecontainer button{
-    position: relative;
-    right: 130px;
-    top: 100px; }
+    position: absolute;
+    right: 168px;
+    top: 288px;
  span{
     display: block;
  }
@@ -324,3 +331,4 @@ height: auto;
     overflow-x: hidden;
  } */
 }
+ }
