@@ -83,7 +83,7 @@ html body{
     background-color: #000000; /* Background color of each grid item */
     padding: 1px; /* Add padding to each grid item as needed */
     border: 1px ; /* Add a border to each grid item */
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
 
 }
 .skill img{
