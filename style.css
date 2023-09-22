@@ -169,13 +169,16 @@ height: auto;
     width:80%;
 }
 #sqlslant{
-    width:80%;
+    width:70%;
 }
 #gitslant{
     width:50%;
 }
 #pycharmslant{
     width:25%;
+}
+#githubslant{
+    width:70%;
 }
 
 #cslant{
@@ -384,5 +387,16 @@ height: auto;
  /* *{
     overflow-x: hidden;
  } */
+}
+
+.skill #JSimg{
+    padding-bottom: 12px;
+    width: 70px;
+}
+
+.skill #SQLimg{
+    padding-bottom: 5px;
+    width: 85px;
+    
 }
  }
