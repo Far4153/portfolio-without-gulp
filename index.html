@@ -109,8 +109,11 @@
                     <div class="footer">
                         <div class="contactme">
                 <h2>Contact me</h2>
-                <form action="">
-                    <span>Name:</span><input type="text">
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="910fa218-eddf-4de7-9cc7-ac227237647f">
+                    <span>Name:</span><input type="text" name="name" id="name" >
+                    <span>Email:</span><input type="email" name="email" id="email">
                     <span>Message:</span><textarea name="text" id="message" cols="30" rows="10"></textarea>
                     <span><button type="submit">submit</button></span>
                 </form>
@@ -130,10 +133,11 @@
                 <a href="https://www.linkedin.com/in/far413"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
                 <a href="https://www.instagram.com/_its_farzana_/"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
 
-
-
-
             </div>
         </div>
+
+    
+
+
 </body>
 </html>
